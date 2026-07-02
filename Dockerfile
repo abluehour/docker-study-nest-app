@@ -13,7 +13,7 @@ RUN corepack enable
 COPY package.json yarn.lock .yarnrc.yml ./
 
 # 의존성 설치
-RUN yarn install -immutable
+RUN yarn install --immutable
 
 # 소스코드 복사
 COPY . .
