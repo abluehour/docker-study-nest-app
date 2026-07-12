@@ -8,7 +8,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      "https://abluehour.kro.kr", // 통신을 허용할 프론트엔드 도메인 출처 명시
+      "https://abluehour.croffledev.kr", // 통신을 허용할 프론트엔드 도메인 출처 명시
     ],
     credentials: true,
   });
